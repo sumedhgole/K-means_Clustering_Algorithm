@@ -27,7 +27,8 @@ def k_means(k_list,elements,no_of_elements,value_of_k):
 			break
 		for i in range(value_of_k):
 			k_list[i+1]=[]
-#-------------------------------------------------------------------#			
+#------------------------------------------------------------------------#
+#print the list
 
 no_of_elements=int(input("Enter total number of elements:"))
 value_of_k=int(input("Enter value of K:"))
